@@ -68,3 +68,7 @@ fabric.properties
 
 
 # End of https://www.gitignore.io/api/webstorm
+source/.idea/modules.xml
+source/.idea/source.iml
+source/.idea/vcs.xml
+source/.idea/workspace.xml
