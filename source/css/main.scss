@@ -6,41 +6,45 @@
 
 $standardbgc: white;
 $standardtc: #666;
-$headerbgc: #f5f5f5;
-$headertc: #999;
-$titletc: #444;
+$titletc: #445;
 
 body{
   color: $standardtc;
   font-family: 'Open Sans', sans-serif;
-  font-family: 'Titillium Web';
   font-size: 14px;
   line-height: 24px;
-  font-weight: 400;
   font-weight: normal;
 }
 header{
-  background-color: $headerbgc;
-  color: $headertc;
-  font-size: 13px;
-  padding: 5px;
-  a{color: $headertc;}
-  span{margin-right: 30px;}
-}
-nav{
-  line-height: 120px;
-  h1{
-    font-size: 27px;
-    float:left;
-  }
-  ul{
-    float: right;
-    li{
-      margin-left: 30px;
-      font-size: 16px;
-      vertical-align: center;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 101;
+  nav{
+    background-color: white;
+    box-shadow: 0 2px 0 -1px rgba(0,0,0,0.08);
+    h1{
+      font-size: 27px;
+      float:left;
+    }
+    ul{
+      float: right;
+      li{
+        margin-left: 30px;
+        font-size: 16px;
+        vertical-align: center;
+        .active{color: #B9A294;}
+        :hover{
+          color: #8C796D;
+          border-bottom: 2px solid #8C796D;
+          padding-bottom: 3px;
+        }
+      }
     }
   }
+}
+main{
+  padding-top: 80px;
 }
 a{
   color: $standardtc;
@@ -73,7 +77,5 @@ section.scope{
     h2,p{padding-left: 70px;}
   }
 }
-
-
 //extra non overwritable helper classes
 @import 'helper';

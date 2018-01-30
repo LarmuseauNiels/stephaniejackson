@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c1556286-9f61-43a5-9c87-0ca7171be0ee" name="TestServerLarmuseau" url="http://ftp://larmuseakz@ftp.cluster023.hosting.ovh.net:21/">
+        <fileTransfer host="larmuseakz@ftp.cluster023.hosting.ovh.net" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
