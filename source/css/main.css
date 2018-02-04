@@ -7348,34 +7348,35 @@ body {
   margin-bottom: -50px;
   padding-bottom: 50px; }
 
-header {
-  position: fixed;
-  left: 0;
-  width: 100%;
-  z-index: 101; }
-  header nav {
-    background-color: white;
-    box-shadow: 0 2px 0 -1px rgba(0, 0, 0, 0.08);
-    padding-bottom: 10px;
-    padding-top: 25px; }
-    header nav h1 {
-      font-size: 27px;
-      float: left; }
-    header nav ul {
-      float: right; }
-      header nav ul li.active {
-        color: #B9A294; }
-      header nav ul li {
-        margin-left: 30px;
-        font-size: 16px;
-        vertical-align: center; }
-        header nav ul li a:hover {
-          color: #8C796D;
-          border-bottom: 2px solid #8C796D;
-          padding-bottom: 3px; }
+header nav.navbar.navbar-fixed-top.navbar-expand-lg.navbar-light {
+  background-color: white;
+  box-shadow: 0 2px 0 -1px rgba(0, 0, 0, 0.08);
+  padding-bottom: 25px;
+  padding-top: 25px; }
+  header nav.navbar.navbar-fixed-top.navbar-expand-lg.navbar-light a.navbar-brand {
+    font-size: 27px;
+    font-family: 'Titillium Web';
+    font-weight: 400;
+    color: #666; }
+  header nav.navbar.navbar-fixed-top.navbar-expand-lg.navbar-light a.navbar-brand:hover {
+    color: #8C796D; }
+  header nav.navbar.navbar-fixed-top.navbar-expand-lg.navbar-light ul.nav.navbar-nav li.nav-item.active a.nav-link {
+    color: #B9A294 !important; }
+  header nav.navbar.navbar-fixed-top.navbar-expand-lg.navbar-light ul.nav.navbar-nav li.nav-item {
+    margin-left: 10px;
+    font-size: 16px;
+    vertical-align: center; }
+    header nav.navbar.navbar-fixed-top.navbar-expand-lg.navbar-light ul.nav.navbar-nav li.nav-item a.nav-link {
+      padding-right: 2px !important;
+      padding-left: 2px !important;
+      color: #666 !important; }
+    header nav.navbar.navbar-fixed-top.navbar-expand-lg.navbar-light ul.nav.navbar-nav li.nav-item a.nav-link:hover {
+      color: #8C796D !important;
+      border-bottom: 2px solid #8C796D;
+      padding-bottom: 3px; }
 
 main {
-  padding-top: 100px; }
+  padding-top: 0px; }
 
 a, a:hover {
   color: inherit;

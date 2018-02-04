@@ -24,44 +24,52 @@
 
             <div class="footerposition">
                 <header>
-                    <nav>
-                        <div class="innerwidth clearfix">
-                            <h1>Stephanie Jackson</h1>
-                            <ul>
-                                <li <?php  if($active == "index"){print("class='active'");} ?>><a href="/stephaniejackson/index">Home</a></li>
-                                <li <?php  if($active == "about"){print("class='active'");} ?>><a href="/stephaniejackson/about">About</a></li>
-                                <li <?php  if($active == "treatments"){print("class='active'");} ?>>
-                                    <div class="dropdown">
-                                        <a href="" class="dropdown-toggle" data-toggle="dropdown">Treatments</a>
-                                        <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="/stephaniejackson/treatments/eyebrows">Eyebrows</a>
-                                            <a class="dropdown-item" href="/stephaniejackson/treatments/eyeliner">Eyeliner</a>
-                                            <a class="dropdown-item" href="/stephaniejackson/treatments/lip_blush">Lip Blush</a>
-                                            <a class="dropdown-item" href="/stephaniejackson/treatments/beauty_spot">Beauty Spot</a>
-                                            <a class="dropdown-item" href="/stephaniejackson/treatments/lvl">LVL</a>
+                    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light  ">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <a class="navbar-brand" href="index">Stephanie Jackson</a>
+                            </div>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                                <ul class="nav navbar-nav">
+                                    <li class="nav-item <?php  if($active == "index"){print(" active");} ?>"><a class="nav-link" href="/stephaniejackson/index">Home</a></li>
+                                    <li class="nav-item <?php  if($active == "about"){print(" active");} ?>"><a class="nav-link" href="/stephaniejackson/about">About</a></li>
+                                    <li class="nav-item <?php  if($active == "treatments"){print(" active");} ?>">
+                                        <div class="dropdown">
+                                            <a href="" class="dropdown-toggle nav-link" data-toggle="dropdown">Treatments</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="/stephaniejackson/treatments/eyebrows">Eyebrows</a>
+                                                <a class="dropdown-item" href="/stephaniejackson/treatments/eyeliner">Eyeliner</a>
+                                                <a class="dropdown-item" href="/stephaniejackson/treatments/lip_blush">Lip Blush</a>
+                                                <a class="dropdown-item" href="/stephaniejackson/treatments/beauty_spot">Beauty Spot</a>
+                                                <a class="dropdown-item" href="/stephaniejackson/treatments/lvl">LVL</a>
+                                            </div>
                                         </div>
-                                    </div>
-                                </li>
-                                <li <?php  if($active == "pricing"){print("class='active'");} ?>><a href="/stephaniejackson/pricing">Pricing</a></li>
-                                <li <?php  if($active == "gallery"){print("class='active'");} ?>>
-                                    <div class="dropdown">
-                                        <a href="" class="dropdown-toggle" data-toggle="dropdown">Gallery</a>
-                                        <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="/stephaniejackson/gallery/eyebrows">Eyebrows</a>
-                                            <a class="dropdown-item" href="/stephaniejackson/gallery/eyeliner">Eyeliner</a>
-                                            <a class="dropdown-item" href="/stephaniejackson/gallery/lip_blush">Lip Blush</a>
-                                            <a class="dropdown-item" href="/stephaniejackson/gallery/beauty_spot">Beauty Spot</a>
-                                            <a class="dropdown-item" href="/stephaniejackson/gallery/lvl">LVL</a
+                                    </li>
+                                    <li class="nav-item <?php  if($active == "pricing"){print(" active");} ?>"><a class="nav-link" href="/stephaniejackson/pricing">Pricing</a></li>
+                                    <li class="nav-item <?php  if($active == "gallery"){print(" active");} ?>">
+                                        <div class="dropdown">
+                                            <a href="" class="dropdown-toggle nav-link" data-toggle="dropdown">Gallery</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="/stephaniejackson/gallery/eyebrows">Eyebrows</a>
+                                                <a class="dropdown-item" href="/stephaniejackson/gallery/eyeliner">Eyeliner</a>
+                                                <a class="dropdown-item" href="/stephaniejackson/gallery/lip_blush">Lip Blush</a>
+                                                <a class="dropdown-item" href="/stephaniejackson/gallery/beauty_spot">Beauty Spot</a>
+                                                <a class="dropdown-item" href="/stephaniejackson/gallery/lvl">LVL</a
+                                            </div>
                                         </div>
-                                    </div>
-                                </li>
-                                <li <?php  if($active == "reviews"){print("class='active'");} ?>><a href="/stephaniejackson/reviews">Reviews</a></li>
-                                <li <?php  if($active == "termsandconditions"){print("class='active'");} ?>><a href="/stephaniejackson/termsandconditions">Terms & Conditions</a></li>
-                                <li <?php  if($active == "contact"){print("class='active'");} ?>><a href="/stephaniejackson/contact">Contact</a></li>
-                            </ul>
+                                    </li>
+                                    <li class="nav-item <?php  if($active == "reviews"){print(" active");} ?>"><a class="nav-link" href="/stephaniejackson/reviews">Reviews</a></li>
+                                    <li class="nav-item <?php  if($active == "termsandconditions"){print(" active");} ?>"><a class="nav-link" href="/stephaniejackson/termsandconditions">Terms & Conditions</a></li>
+                                    <li class="nav-item <?php  if($active == "contact"){print(" active");} ?>"><a class="nav-link" href="/stephaniejackson/contact">Contact</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </nav>
                 </header>
+
             <main>
          <?php
      }
@@ -76,6 +84,7 @@
                  </div>
              </footer>
              <script src="/stephaniejackson/js/vendor/jquery-1.12.0.min.js"></script>
+             <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
              <script>window.jQuery || document.write('<script src="/stephaniejackson/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
              <script src="/stephaniejackson/js/vendor/popper.min.js"></script>
              <script src="/stephaniejackson/js/vendor/bootstrap.min.js"></script>

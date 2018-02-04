@@ -8,8 +8,8 @@ output::header("about");
                    <div class="innerwidth">
                     <h2>About Stephanie Jackson</h2>
                        <div class="row">
-                           <img class="col-sm-4" src="img/sj_brows.png" alt="Stephanie Jackson Logo">
-                           <div class="col-sm-8">
+                           <img class="col-md-4" src="img/sj_brows.png" alt="Stephanie Jackson Logo">
+                           <div class="col-md-8">
                               <p>
                               <strong>Stephanie Jackson</strong> is a well-experienced and fully qualified hair and makeup artist who specialises in her passion, Semi Permanent Makeup. After Stephanie was trained and qualified in London’s renowned Harley Street, she gained her diploma in Micro-pigmentation. Stephanie began her career at Greasepaint – the UK’s leading hair and makeup academy. Her role included working on shoots in television, film and fashion.</p>
                               <p>

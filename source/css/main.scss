@@ -23,29 +23,38 @@ body{
   margin-bottom: -50px;
   padding-bottom: 50px;
 }
+
 header{
-  position: fixed;
-  left: 0;
-  width: 100%;
-  z-index: 101;
-  nav{
+  //position: fixed;
+  //left: 0;
+  //width: 100%;
+  //z-index: 101;
+  nav.navbar.navbar-fixed-top.navbar-expand-lg.navbar-light{
     background-color: white;
     box-shadow: 0 2px 0 -1px rgba(0,0,0,0.08);
-    padding-bottom: 10px;
+    padding-bottom: 25px;
     padding-top: 25px;
-    h1{
+    a.navbar-brand{
       font-size: 27px;
-      float:left;
+      font-family: 'Titillium Web';
+      font-weight: 400;
+      color: #666;
     }
-    ul{
-      float: right;
-      li.active{color: #B9A294;}
-      li{
-        margin-left: 30px;
+    a.navbar-brand:hover{
+      color: #8C796D ;
+    }
+    ul.nav.navbar-nav{
+      li.nav-item.active{a.nav-link{color: #B9A294 !important;}}
+      li.nav-item{
+        margin-left: 10px;
         font-size: 16px;
         vertical-align: center;
-        a:hover{
-          color: #8C796D;
+        a.nav-link{padding-right: 2px !important;
+          padding-left: 2px !important;
+          color: #666 !important;
+        }
+        a.nav-link:hover{
+          color: #8C796D !important;
           border-bottom: 2px solid #8C796D;
           padding-bottom: 3px;
         }
@@ -54,7 +63,7 @@ header{
   }
 }
 main{
-  padding-top: 100px;
+  padding-top: 0px;
 }
 a, a:hover{
   color: inherit;
@@ -119,3 +128,4 @@ footer{
 
 
 @import 'helper';
+
