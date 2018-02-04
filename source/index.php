@@ -1,8 +1,7 @@
 <?php
-include 'header.php';
+require_once 'autoloader.php';
+output::header("index");
 ?>
-
-<main>
     <section class="frontpagecarousel">
         <div class="innerwidth clearfix" >
             <div id="carouselFront" class="carousel slide" data-ride="carousel">
@@ -31,26 +30,6 @@ include 'header.php';
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-        </div>
-    </section>
-    <section class="scope">
-        <div class="innerwidth clearfix" >
-            <article>
-                <h2>Eyebrows</h2>
-                <p>Your eyebrows are the most dominant facial feature, and a crucial part to structuring the beauty of your face.</p>
-            </article>
-            <article>
-                <h2>Eyeliner</h2>
-                <p>This treatment allows you to achieve the most from your eyes. Whether you want an eyelash enhancement or a total refinement, this procedure is the ideal method for long lasting eyeliner.</p>
-            </article>
-            <article>
-                <h2>Lips</h2>
-                <p>Semi Permanent Lip Liner redefines the lips with a subtle use of colour to enhance the shape, also giving the illusion of fullness.</p>
-            </article>
-            <article>
-                <h2>Beauty Spot</h2>
-                <p>A simple beauty spot strategically placed on your face, can add a touch of glamour. However, a more natural placement can deter ones eye from any imperfections.</p>
-            </article>
         </div>
     </section>
     <section>
@@ -100,27 +79,6 @@ include 'header.php';
             <em>CLICK HERE</em>
         </div>
     </section>
-</main>
-</div>
-<footer>
-    <div class="innerwidth">
-        <p>Stephanie Jackson - London Semi Permanent Makeup Artist</p>
-    </div>
-</footer>
-<script src="js/vendor/jquery-1.12.0.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-<script src="js/vendor/popper.min.js"></script>
-<script src="js/vendor/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-<script>
-    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-        e.src='https://www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-    ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-</script>
-</body>
-</html>
-
+<?php
+output::footer();
+?>

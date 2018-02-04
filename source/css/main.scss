@@ -93,19 +93,8 @@ footer{
   margin: 0 auto;
   width: 500px;
 }
-section.scope{
-  article:first-child{
-    margin-left: 0;
-  }
-  article{
-    width: 22%;
-    float: left;
-    margin-left: 4%;
-    h2,p{padding-left: 70px;}
-  }
-}
 //about page specific
-main.aboutpage{
+#aboutpage{
   font-size: 13px;
   line-height: 21px;
   padding-top: 0;
@@ -124,7 +113,7 @@ main.aboutpage{
   }
 }
 //pricing
-main.pricing{
+#pricing{
   @import 'cards';
 }
 
