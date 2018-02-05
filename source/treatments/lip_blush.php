@@ -2,6 +2,7 @@
 require_once '../autoloader.php';
 output::header("treatments");
 ?>
+<div class="treatments">
 <h1>Lip Blush</h1>
     <section>
         <article>
@@ -33,6 +34,7 @@ output::header("treatments");
             </ul>
         </article>
     </section>
+</div>
 <?php
 output::footer();
 ?>

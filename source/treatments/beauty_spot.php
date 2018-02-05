@@ -2,7 +2,7 @@
 require_once '../autoloader.php';
 output::header("treatments");
 ?>
-<div>
+<div class="treatments">
 <h1>Beauty Spot</h1>
 <section>
     <article>

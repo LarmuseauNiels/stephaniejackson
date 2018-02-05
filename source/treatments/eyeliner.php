@@ -2,7 +2,7 @@
 require_once '../autoloader.php';
 output::header("treatments");
 ?>
-<div>
+<div class="treatments">
 <h1>Eyeliner</h1>
     <section class="innerwidth">
         <article>
