@@ -4,7 +4,7 @@ output::header("treatments");
 ?>
 <div class="treatments">
 <h1>Lip Blush</h1>
-    <section>
+    <section class="innerwidth">
         <article>
             <h2>Semi Permanent Lips</h2>
             <h3>Lip Liner:</h3>

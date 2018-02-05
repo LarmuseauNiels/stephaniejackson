@@ -2,9 +2,9 @@
 require_once 'autoloader.php';
 output::header("termsandconditions");
 ?>
-<div class="termsandconditions">
+<div class="termsandconditions treatments">
     <h1>Terms & Conditions</h1>
-    <section>
+    <section class="innerwidth">
         <h2>Terms and Conditions of Stephanie Jackson Limited</h2>
         <ul>
             <li>There is a £50 deposit charge to secure your booking. This is non refundable.</li>

@@ -4,7 +4,7 @@ output::header("treatments");
 ?>
 <div class="treatments">
     <h1>LVL</h1>
-    <section>
+    <section class="innerwidth">
         <h2>LVL</h2>
         <p>Stephanie Jackson is a fully qualified Lvl Lash technician, trained by the UKs leading eyelash company, Nouveau Lashes.</p>
         <p>LvL is the new version of the old fashioned perm! It stands for Length, Volume, Lift.</p>

@@ -3,8 +3,8 @@ require_once '../autoloader.php';
 output::header("treatments");
 ?>
 <div class="treatments">
+    <h1>Eyebrows</h1>
     <section class="innerwidth">
-        <h1>Eyebrows</h1>
         <article>
         <h2>Semi Permanent Eyebrows</h2>
             <p>Your eyebrows are the most dominant facial feature, and a crucial part to structuring the beauty of your face. A pair of well groomed and healthy looking eyebrows can enhance your natural beauty as well as maintain your vitality. Creating the perfectly defined eyebrow is what Stephanie does best. By transforming the thickness, arch and overall shape of your eyebrows the look you desire will be achieved.</p>

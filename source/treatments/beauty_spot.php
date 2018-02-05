@@ -4,7 +4,7 @@ output::header("treatments");
 ?>
 <div class="treatments">
 <h1>Beauty Spot</h1>
-<section>
+<section class="innerwidth">
     <article>
         <h2>Semi Permanent Beauty Spot</h2>
         <p>A simple beauty spot strategically placed on your face, can add a touch of glamour. However, a more natural placement can deter ones eye from any imperfections.</p>
