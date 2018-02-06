@@ -14,7 +14,7 @@ output::header("pricing");
                                           <span class="author"></span>
                                           <h1 class="title"><a href="#">LVL Procedure</a></h1>
                                           <p class="text">£50 including eyelash tint</p>
-                                          <a href="index" class="button">more</a>
+                                          <a href="treatments/lvl" class="button">more</a>
                                       </div>
                                   </div>
                               </div>
@@ -28,7 +28,7 @@ output::header("pricing");
                                           <span class="author"></span>
                                           <h1 class="title"><a href="#">Beauty Spot Procedure</a></h1>
                                           <p class="text">£40 including touch up</p>
-                                          <a href="index" class="button">more</a>
+                                          <a href="treatments/beauty_spot" class="button">more</a>
                                       </div>
                                   </div>
                               </div>
@@ -42,7 +42,7 @@ output::header("pricing");
                                           <span class="author"></span>
                                           <h1 class="title"><a href="#">Lip Blush Procedure</a></h1>
                                           <p class="text">£325 including touch up</p>
-                                          <a href="index" class="button">more</a>
+                                          <a href="treatments/lip_blush" class="button">more</a>
                                       </div>
                                   </div>
                               </div>
@@ -56,7 +56,7 @@ output::header("pricing");
                                           <span class="author"></span>
                                           <h1 class="title"><a href="#">Lip Liner Procedure</a></h1>
                                           <p class="text">£300 including touch up</p>
-                                          <a href="index" class="button">more</a>
+                                          <a href="treatments/lip_blush" class="button">more</a>
                                       </div>
                                   </div>
                               </div>
@@ -70,7 +70,7 @@ output::header("pricing");
                                           <span class="author"></span>
                                           <h1 class="title"><a href="#">Eyeliner Procedure</a></h1>
                                           <p class="text">£275 / £300 including touch up - Duration varies</p>
-                                          <a href="index" class="button">more</a>
+                                          <a href="treatments/eyeliner" class="button">more</a>
                                       </div>
                                   </div>
                               </div>
@@ -84,7 +84,7 @@ output::header("pricing");
                                           <span class="author"></span>
                                           <h1 class="title"><a href="#">Eyebrow Procedure</a></h1>
                                           <p class="text">£275 including touch up</p>
-                                          <a href="index" class="button">more</a>
+                                          <a href="treatments/eyebrows" class="button">more</a>
                                       </div>
                                   </div>
                               </div>

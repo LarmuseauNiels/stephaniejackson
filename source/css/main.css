@@ -7547,13 +7547,13 @@ div.treatments h1 {
   opacity: .88; }
   #photos ul {
     list-style: none;
-    margin: 0px auto;
+    margin: 0 auto;
     padding: 10px;
     display: block;
     text-align: center; }
 
 #photos img {
-  width: 19%;
+  width: 32%;
   float: left;
   display: block;
   margin: 2px; }
@@ -7562,7 +7562,7 @@ div.treatments h1 {
   background: rgba(0, 0, 0, 0.8);
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   display: none;
