@@ -7399,6 +7399,16 @@ footer {
     font-size: 13px;
     color: #999; }
 
+/*
+  _____                                       _  __ _
+ |  __ \                                     (_)/ _(_)
+ | |__) |_ _  __ _  ___   ___ _ __   ___  ___ _| |_ _  ___
+ |  ___/ _` |/ _` |/ _ \ / __| '_ \ / _ \/ __| |  _| |/ __|
+ | |  | (_| | (_| |  __/ \__ \ |_) |  __/ (__| | | | | (__
+ |_|   \__,_|\__, |\___| |___/ .__/ \___|\___|_|_| |_|\___|
+              __/ |          | |
+             |___/           |_|
+*/
 .frontpagecarousel {
   padding-top: 20px;
   height: 420px; }
@@ -7578,6 +7588,24 @@ div.treatments h1 {
 
 #photo-gallery {
   width: 100%; }
+
+#contact input {
+  display: block;
+  margin: 5px;
+  width: 100%; }
+#contact ul {
+  padding-left: 0; }
+#contact .sociallink {
+  list-style: none;
+  font-size: 38px;
+  padding: 5px 5px 5px 20px; }
+#contact .infoitem {
+  list-style: none;
+  font-size: 16px;
+  margin-left: 5px; }
+  #contact .infoitem svg {
+    width: 10px;
+    margin-right: 5px; }
 
 /* ==========================================================================
    Helper classes
