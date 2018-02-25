@@ -18,8 +18,6 @@ output::header("gallery");
             ?>
         </ul>
     </div>
-
-
 <?php
 output::footer();
 ?>

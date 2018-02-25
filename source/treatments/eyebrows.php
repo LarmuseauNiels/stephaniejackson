@@ -36,7 +36,6 @@ output::header("treatments");
         </article>
     </section>
 </div>
-
 <?php
 output::footer();
 ?>
